@@ -1,0 +1,57 @@
+
+  .main-skill{
+    width:100%;
+    height:300px;
+    
+    background:url("./assests/images/sky11.jpg");
+    margin-bottom:2%;
+
+}
+  .head{
+     text-align:center;
+     
+     margin-bottom: 5%;
+     font-weight: bold;
+     text-transform: uppercase;
+     font-size: x-large;
+     color:salmon;
+ }
+
+ 
+  
+ 
+
+ .types{
+     display:flex;
+     justify-content: space-evenly;
+     margin-bottom: 20px;
+ }
+
+ .btn ,.btn1{
+     background:rgb(237, 238, 243);
+     border: none;
+     font-weight: bold;
+     font-style: italic;
+     font-size: x-large;
+     color:sandybrown;
+     padding: 10px;
+     background: transparent;
+ }
+     
+
+
+ .btn:hover, .btn1:hover{
+   
+   background-color:peachpuff;
+
+
+ }
+
+ .types1{
+     display:flex;
+     justify-content: space-evenly;
+ }
+
+ .btn1{
+   margin-top:3% ;
+ }

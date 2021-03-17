@@ -1,0 +1,52 @@
+
+.landing{
+     background:url("./assests/images/pink.jpg"); 
+   /* background-repeat: no repeat;*/
+   /* background-color:green ; */
+    background-size:cover;
+    height:100vh;
+    padding:100px 20px;
+
+}
+
+
+
+.piccard{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:auto;
+    width:70%;
+    padding:45px 10px;
+    background-color: lightcoral;
+    border-radius: 10px;
+    box-shadow:2px 2px 8px purple;
+  }
+  
+  .piccard img{
+    height:200px;
+      border-radius: 10px;
+    box-shadow: 2px 2px 8px purple;
+  }
+  
+     .Aboutme::first-letter{     /******Pseudo elements****/
+    color:rebeccapurple;   
+    font-size:200%;
+  }
+  .piccard p{
+    color:purple;
+  }
+  
+  .info h2{
+    color:purple;
+  }
+  
+  .info{
+    width:60%;
+    padding:10px;
+  }
+  .info p{
+    padding:10px 0;
+  }
+  
+  

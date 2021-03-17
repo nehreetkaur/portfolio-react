@@ -1,0 +1,49 @@
+nav.navbar.navbar-default {
+    margin-bottom: 0;
+  }
+
+  
+.header{
+    width:100%;
+   padding:25px;
+   position: fixed;
+   background-color: seashell;
+   display:flex;
+   flex-wrap:wrap;
+   justify-content: space-between;
+      opacity:.90;
+   
+}
+
+header h1{
+  color:purple;
+  
+}
+
+
+.links{
+  margin-right:20px;
+}
+
+.links ul li{
+  display:inline-block;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: large;
+}
+
+.links ul li a{
+  text-decoration: none;
+  color:purple;
+  padding:25px;
+  border-bottom: 0px solid cyan ;
+  transition:border 120ms, padding 120ms;/*for smooth styling*/
+}
+.links ul li a:hover{
+  border-bottom: 3px solid hotpink;
+  padding-bottom:25px;
+}
+.links ul li a:active{
+  color:red;
+}
+/**************************About me Section*********************/
