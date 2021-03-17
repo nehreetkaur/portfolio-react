@@ -44,7 +44,7 @@ function Work() {
 <img src="images/white.jpg" alt="white office desk" />
 <section className="projectinfo">
   <h2>Project 3</h2>
-  <p>This is my day planner assignment.User can enter the event in time block and it will
+  <p id="Work">This is my day planner assignment.User can enter the event in time block and it will
                 shown after the refresh with the help of local storage as well.The link will take you to the deployed site.
                 Different colors representing the specific time.
 
