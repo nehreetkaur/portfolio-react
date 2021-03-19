@@ -79,6 +79,6 @@ User have to install react by running **npx-create-react-app<appname>** and then
   ## LINKS
   [Git-hub Repository](https://github.com/nehreetkaur/portfolio-react)
 
-  [HEROKU-DEPLOYED-APPLICATION]()
+  [HEROKU-DEPLOYED-APPLICATION]( https://react-portfolio-nehreet.herokuapp.com/)
    
 
