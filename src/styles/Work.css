@@ -22,7 +22,7 @@
     display:flex;
     margin:auto;
     margin-bottom:40px;
-    border:1px solid black;
+    border:1px solid cyan;
     background-color:peachpuff;
   
     }
@@ -30,7 +30,7 @@
       padding:20px;
     }
     .projectinfo h2{
-      border-bottom: 4px pink;
+      border-bottom: 4px salmon;
       margin-bottom:15px;
       color:cadetblue;
       text-transform: uppercase;

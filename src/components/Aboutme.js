@@ -13,7 +13,7 @@ function Aboutme(){
         <section className="piccard">
           <img src={profilePic} alt="my  pic"/>
           <section className="info">
-            <h2>Nehreet kaur</h2>
+            <h2><bold>Nehreet kaur</bold></h2>
             <hr/>
             <p id="Aboutme">I am an experienced professional with 7+ years of experience in the Healthcare industry. I hold
               a Bachelor's degree in Internet Sciences and currently looking for opportunities as a Web Developer.. I have

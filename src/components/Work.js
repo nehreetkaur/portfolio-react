@@ -1,5 +1,11 @@
 import React from "react";
 import "../styles/Work.css"
+import code from "../styles/assests/images/code.jpg"
+import meeting from "../styles/assests/images/meeting.jpg"
+import laptop from "../styles/assests/images/laptop.jpg"
+import white from "../styles/assests/images/white.jpg"
+import desk from "../styles/assests/images/desk.jpg"
+import key from "../styles/assests/images/key.jpg"
 
 function Work() {
     return (
@@ -7,7 +13,7 @@ function Work() {
         <section className="projects">
         <h1>My Work</h1>
         <section id="projects" className="projsec">
-          <img src="images/meeting.jpg" alt="meeting in office" />
+          <img src={meeting} alt="meeting in office" />
           <section className="projectinfo">
             <h2>Project 1</h2>
             <p>This is my First Project ,completed in as a group of four.The link will take you to the deployed site.
@@ -31,7 +37,7 @@ function Work() {
   <a href="https://github.com/nehreetkaur/randompasswordhmk3">Github-repository</a>
 </section>
 
-<img src="images/laptop.jpg" alt="laptop" />
+<img src={laptop} alt="laptop" />
 </section>
 
 
@@ -41,7 +47,7 @@ function Work() {
 
 
 <section className="projsec">
-<img src="images/white.jpg" alt="white office desk" />
+<img src={white} alt="white office desk" />
 <section className="projectinfo">
   <h2>Project 3</h2>
   <p id="Work">This is my day planner assignment.User can enter the event in time block and it will
@@ -78,10 +84,10 @@ function Work() {
   <a href="https://github.com/nehreetkaur/burger">Github-repository</a>
 
 </section>
-<img src="images/code.jpg" alt="white office desk" />
+<img src={code} alt="white office desk" />
 </section>
 <section className="projsec">
-      <img src="images/key.jpg" alt="keyboard" />
+      <img src={key} alt="keyboard" />
 
       <section class="projectinfo">
         <h2>Project 5</h2>
@@ -123,7 +129,7 @@ function Work() {
         <a href="https://github.com/nehreetkaur/note-takerapphmk">Github-repository</a>
 
       </section>
-      <img src="images/desk.jpg" alt="monitor-desk" />
+      <img src={desk} alt="monitor-desk" />
     </section>
 
 

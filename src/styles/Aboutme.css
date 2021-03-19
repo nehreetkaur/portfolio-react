@@ -1,6 +1,6 @@
 
 .landing{
-     background:url("./assests/images/pink.jpg"); 
+     background:url("./assests/images/beige.jpg"); 
    /* background-repeat: no repeat;*/
    /* background-color:green ; */
     background-size:cover;
@@ -18,13 +18,13 @@
     margin:auto;
     width:70%;
     padding:45px 10px;
-    background-color: lightcoral;
+    background-color: lightskyblue;
     border-radius: 10px;
     box-shadow:2px 2px 8px purple;
   }
   
   .piccard img{
-    height:200px;
+    height:250px;
       border-radius: 10px;
     box-shadow: 2px 2px 8px purple;
   }
@@ -34,7 +34,7 @@
     font-size:200%;
   }
   .piccard p{
-    color:purple;
+    color:palevioletred;
   }
   
   .info h2{

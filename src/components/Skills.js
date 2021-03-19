@@ -4,7 +4,7 @@ import "../styles/Skills.css"
 
 function Skills(){
 return(
-<section className="skills" className="main-skill">
+<section id="skills" className="main-skill">
     <section className="head"> Skills</section>
     <section className="types">
       <button className="btn">HTML </button> <button class="btn">CSS</button> <button className="btn">JAVASCRIPT</button><br/>
@@ -13,7 +13,7 @@ return(
 
 
       <button className="btn1">JQUERY </button> <button className="btn1">NODE-JS</button> <button
-        className="btn1">MY-SQL</button><br/>
+        className="btn1">MY-SQL</button><br/> <button className="btn1">REACT</button>
 
     </section>
 
